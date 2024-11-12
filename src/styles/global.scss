@@ -1,0 +1,54 @@
+:root {
+  --pd: 8px 14px;
+  --transition: cubic-bezier(0.4, 0, 0.2, 1);
+  --bg-color1: #fff;
+  --bg-color5: #f3f4f8;
+  --text-color: #333639;
+  --color: #fff;
+  --item-bg-reversal: #000;
+  --item-color-reversal: #fff;
+  --eilipsis-color: rgba(38, 38, 38, 1);
+  --bg-sider: #fbfaff;
+  --bg-modal: #fff;
+  --bg-message: #fff;
+  --border-color: rgb(224, 224, 230);
+  --primary-color: #2080f0;
+  --primary-hover: #4098fc;
+  --info-color: #2080f0;
+  --info-hover: #4098fc;
+  --radius: 3px;
+  --warning-color: #f0a020;
+  --warning-hover: #fcb040;
+  --error-color: #d03050;
+  --error-hover: #de576d;
+  --success-color: #18a058;
+  --success-hover: #36ad6a;
+  --box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+
+html[theme="dark"] {
+  --color: rgba(255, 255, 255, 0.82);
+  --bg-color1: #000;
+  --bg-color5: #333;
+  --text-color: #ffffffd1;
+  --item-bg-reversal: #333;
+  --eilipsis-color: rgb(72, 72, 78);
+  --item-color-reversal: #000;
+  --bg-sider: #19191d;
+  --bg-modal: rgb(44, 44, 50);
+  --bg-message: rgb(72, 72, 78);
+  --border-color: rgba(255, 255, 255, 0.24);
+  --primary-color: #70c0e8;
+  --primary-hover: #8acbec;
+  --info-color: #70c0e8;
+  --info-hover: #8acbec;
+  --waining-color: #f2c97d;
+  --waining-hover: #f5d599;
+  --error-color: #e88080;
+  --error-hover: #e98b8b;
+  --success-color: #63e2b7;
+  --success-hover: #7fe7c4;
+  --box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.24),
+    0 6px 12px 0 rgba(0, 0, 0, 0.16), 0 9px 18px 8px rgba(0, 0, 0, 0.1);
+}

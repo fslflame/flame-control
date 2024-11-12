@@ -1,0 +1,48 @@
+{
+  "name": "flame-control",
+  "version": "0.8.36",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/fsl-ui.umd.cjs",
+  "module": "./dist/fsl-ui.js",
+  "types": "./dist/fsl-ui.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/fsl-ui.js",
+      "require": "./dist/fsl-ui.umd.cjs"
+    },
+    "./dist/global/index.css": "./dist/global/index.css",
+    "./dist/global/fsl-ui.css": "./dist/global/fsl-ui.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force"
+  },
+  "dependencies": {
+    "@styils/vue": "^1.1.6",
+    "@vueuse/core": "^10.9.0",
+    "pinia": "^2.1.7",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue": "^3.4.21",
+    "xe-utils": "^3.5.25"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.12.5",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vue/tsconfig": "^0.5.1",
+    "npm-run-all2": "^6.1.2",
+    "sass": "^1.75.0",
+    "typescript": "~5.4.0",
+    "unplugin-auto-import": "^0.17.5",
+    "vite": "^5.2.8",
+    "vite-plugin-vue-devtools": "^7.0.25",
+    "vue-tsc": "^2.0.11"
+  }
+}

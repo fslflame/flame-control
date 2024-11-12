@@ -1,0 +1,31 @@
+body {
+  --margin: 14px;
+  --padding: 16px;
+  background-color: var(--bg-color1);
+  color: var(--text-color);
+}
+
+// 颜色变量
+$bgColor1: var(--bg-color1);
+$bgColor5: var(--bg-color5);
+$success: var(--success-color);
+$warning: var(--warning-color);
+$error: var(--error-color);
+$info: var(--info-color);
+$primary: var(--primary-color);
+$color: var(--text-color-1); // 标题、重点文本字体颜色
+$color-text-2: var(--text-color-2); // 文本-全局默认字体颜色
+$color-text-3: var(--text-color-3); // 二级文本颜色
+$color-text-4: var(--text-color-disabled); // 辅助文本颜色
+$shadow: var(--box-shadow-1); //阴影
+$borderColor: var(--border-color); // 边框颜色、分割线颜色
+$margin: var(--margin);
+$padding: var(--padding);
+$radius: var(--border-radius);
+
+#app {
+  background: $bgColor5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,23 @@
+:root {
+  --old-z: 2024;
+  --new-z: 2023;
+}
+.sider {
+  view-transition-name: sider;
+}
+::view-transition-old(sider) {
+  display: none;
+}
+
+html[theme="dark"]::view-transition-old(root) {
+  z-index: var(--old-z);
+}
+html[theme="dark"]::view-transition-new(root) {
+  z-index: var(--new-z);
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  mix-blend-mode: normal;
+  animation: none;
+}

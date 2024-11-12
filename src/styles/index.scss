@@ -1,0 +1,16 @@
+// 基础样式
+@import "./base.scss";
+
+// 全局类名样式
+@import "./global.scss";
+
+// 动画类名
+@import "./animated.scss";
+
+// 自定义原生滚动条样式
+
+@import "./mixin.scss";
+
+@import "./viewTransition.scss";
+@import "./md.scss";
+@import "./transition.scss";

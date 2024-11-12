@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // user-select: none;
+  // -webkit-user-select: none; /*谷歌 /Chrome*/
+  // -moz-user-select: none; /*火狐/Firefox*/
+  // -ms-user-select: none; /*IE 10+*/
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+html {
+  font-size: 14px;
+  @extend %scrollbar;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-y: hidden;
+}
+
+.n-tabs-bar {
+  height: 4px !important;
+  border-radius: 5px !important;
+}
+
+.xgplayer-drag,
+.xgplayer-progress-played,
+.xgplayer-progress-btn {
+  background: #165dff !important;
+}
+
+.xg-options-list li:hover,
+.xg-options-list li.selected {
+  color: #165dff !important;
+}
+.n-dialog .n-dialog__content {
+  margin: 0 !important;
+}
+.n-config-provider {
+  height: 100%;
+}
+.n-layout {
+  background-color: transparent;
+}
+.n-layout-sider-scroll-container {
+  overflow-x: hidden;
+}
+.n-layout-sider-scroll-container::-webkit-scrollbar {
+  @extend %scrollbar-none;
+}
+.n-layout-scroll-container {
+  display: flex;
+  flex-direction: column;
+}
+.n-tabs .n-tabs-rail {
+  border-radius: 20px;
+  background-color: var(--bg-color5);
+}
+
+ul {
+  list-style: none !important;
+  margin-bottom: 0;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}

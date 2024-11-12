@@ -1,0 +1,28 @@
+.svg-icon[data-v-11b4459b] {
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+.loaders[data-v-71f9bde4] {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.loaders[data-v-71f9bde4]:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-top: 3px solid #fff;
+  border-right: 3px solid transparent;
+  animation: spinner8217-71f9bde4 0.8s linear infinite;
+}
+@keyframes spinner8217-71f9bde4 {
+  to {
+    transform: rotate(360deg);
+  }
+}
